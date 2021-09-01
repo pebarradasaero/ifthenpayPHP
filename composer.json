@@ -1,0 +1,36 @@
+{
+  "name": "pebarradasaero/ifthenpay",
+  "description": "IfthenPay PHP helper classes.",
+  "type": "library",
+  "keywords": [
+    "ifthenpay",
+    "multibanco",
+    "helpers",
+    "library"
+  ],
+  "homepage": "https://github.com/pebarradasaero/ifthenpay",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Pedro Barradas",
+      "email": "pedro@pedrobarradas.com",
+      "homepage": "https://github.com/pebarradasaero"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/pebarradasaero/ifthenpay/issues",
+    "source": "https://github.com/pebarradasaero/ifthenpay"
+  },
+  "autoload": {
+    "psr-4": {
+      "pebarradasaero\\IfthenPay\\Helpers\\": "lib/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "pebarradasaero\\Tests\\IfthenPay\\Helpers\\": "tests/"
+    }
+  },
+  "require": {},
+  "require-dev": {}
+}
